@@ -1,0 +1,13 @@
+<div class="card-container">
+    <a class="card" href="{{ article.url }}">
+        <div class="card-image">
+        <img class="news-img" src="{{ article.urlToImage ? article.urlToImage : '../../assets/images/default.png' }}" alt="{{ article.title }}">
+    </div>
+    <div class="card-content">
+        <p class="title"> {{ article.title }} </p>
+        <p class="description"> {{article.description }} </p>
+        <p class="date">By: {{ article.author ? article.author : 'No Author Specified' }} | {{ article.publishedAt | date:'medium' }}</p>
+    </div>
+    </a>
+</div>
+

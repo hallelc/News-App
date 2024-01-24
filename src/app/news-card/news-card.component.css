@@ -1,0 +1,36 @@
+.card-container {
+    flex-wrap: wrap;
+    margin-top: 16px;
+    width: 90%;
+    cursor: pointer;
+    }
+
+.card {
+    flex-direction: column;
+    all: unset;
+  }
+
+  .card-content {
+    display: table;
+  }
+
+  .news-img {
+    height:90px;
+    width: 90px;
+    float: left;
+    margin-right: 15px;
+  }
+
+  .title {
+    font-weight: bold;
+    font-size: larger;
+    margin: auto;
+  }
+
+  .description {
+    font-size: medium;
+  }
+
+  .date {
+    font-size: smaller;
+  }
